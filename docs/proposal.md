@@ -36,46 +36,15 @@
 
 ## 3. Tools and services
 
-<!-- One sentence of justification each. "It's popular" is not a justification.
-     "I can deploy it free and my testers can open it on their phones without
-     installing anything" is.
+<!-- What tools will you be using? Most students will be using Render for the web service hosting, and Neon for a database. 
+If you are *not* using these, please edit the table below. 
 
-     See docs/course/tracks.md before filling this in. -->
+Then fill in an external APIs you plan to use in "Outside services". This could be an LLM service or one of the public API services (e.g. weather, other stats) shared in tutorial 02.
+ -->
 
 | What | Choice | Why this one |
 |---|---|---|
-| Track | <!-- static-web / python-tool / other --> |  |
-| Language |  |  |
-| How tests run |  |  |
-| Where it's hosted |  |  |
-| Data storage |  |  |
-| Outside services (APIs) |  |  |
-
-**What this rules out:** <!-- Every choice closes a door. Name one door you
-closed and confirm you're fine with it. -->
-
-## 4. Timeline
-
-<!-- Map features to weeks. Pull the numbers from docs/backlog.md; they should
-     match. Be honest about how much fits in a week; you will be graded on the
-     justification, not on the ambition. -->
-
-| Week | Features | Milestone |
-|---|---|---|
-| 5 | #1 | First test goes from red to green |
-| 6 | #2 |  |
-| 7 | #3 |  |
-| 8 | | Stage 2: prototype, two features working |
-| 9 | | |
-| 10 | | Setup instructions a stranger can follow |
-| 11 | | Stage 3: alpha, peer testing |
-| 12-14 | | Feedback built in, tests updated |
-| 15 | | Stage 4: demo and report |
-
-**Where I expect to get stuck:** <!-- Naming this now is worth more than a
-timeline that pretends nothing will go wrong. -->
-
-## 5. Setup instructions
-
-The first draft lives in [`../README.md`](../README.md) under **Setup**, because
-that's where a stranger will look for it. Write it there, not here.
+| Track | Web app | Class default |
+| Where it's hosted | Render | Class default (it's a free web server) |
+| Data storage | Neon | Class default (it's a free persistent database |
+| Outside services (APIs) | <!-- fill this in if you expect to use some kind of API service --> |  |
