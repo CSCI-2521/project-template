@@ -9,6 +9,7 @@ These are the steps we discussed in class:
 
 <img width="1721" height="981" alt="image" src="https://github.com/user-attachments/assets/639cc139-4a9f-4ae1-8cd2-66573d9d7358" />
 
+### Outline of steps
 1. Design
 - You write a user storiy (“As a _______, I can _______”)...
 - Keep the change small! Agents lose focus on big tasks.
@@ -77,13 +78,20 @@ Note: Here is when to ask agents to make a *pull request* (PR), when to make a c
 ## Getting updates
 ---
 
-## 0. Open a new branch in a new worktree
+## 0. Open a new branch in a new worktree, check for updates from Instructor
 We never want to do work directly on the main code in the repo. Instead, we will always open a new "branch". 
 
 Before you start work, ask your agent:
 
 ```
 Please make sure you are on a new branch, and that you were working in a separate worktree on this computer. Please tell me the name of the branch, tell me where to find the worktree on my computer, and give me a link to the work tree.
+```
+
+Then ask your agent to check for udpates to this template from the instructor:
+```
+git remote add upstream https://github.com/you/template.git
+git fetch upstream
+git merge upstream/main
 ```
 
 ## 1. Design
@@ -263,8 +271,6 @@ Spec was wrong? --> Back to Step 2
 Design was wrong? --> Back to Step 1
 
 All good? Proceed to step 6. 
-
-<img width="644" height="224" alt="image" src="https://github.com/user-attachments/assets/793e3913-5771-4d8e-8a13-6b56ebb75929" />
 
 ## 6. Merge the code
 
