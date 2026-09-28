@@ -30,10 +30,10 @@
 **Cut on purpose:** <!-- Features you dropped, and the reasoning. Cutting scope
 deliberately is a legitimate engineering decision. Say so. -->
 
-## 3. User feedback, and what it changed *(40%, the largest single section)*
+## 3. User feedback, and what it changed *(40%)*
 
 <!-- Pull from docs/feedback-log.md. Don't just summarize what people said.
-     show the chain: comment → decision → revised acceptance criteria → new or changed
+     show the chain: comment -> decision -> revised acceptance criteria -> new or changed
      test → code. That chain is what's being graded. -->
 
 ### What the testers found
@@ -47,7 +47,7 @@ deliberately is a legitimate engineering decision. Say so. -->
 
 ### What I decided not to change, and why
 
-### Alpha → final: everything that changed
+### Alpha -> final: everything that changed
 
 <!-- CHANGELOG.md should already have most of this. Summarize it here and link. -->
 
@@ -56,40 +56,21 @@ deliberately is a legitimate engineering decision. Say so. -->
 <!-- Pull from docs/dev-log.md. Specifics beat generalities:
      - Where did the routine catch something you would have missed?
      - Where did an assistant confidently do the wrong thing?
-     - What did the question round find that you hadn't thought of?
-     - Did the stop-and-read pause ever change your mind about a test? -->
+     - What tricks did you learn for prompting and steering agents? 
+     - Which parts of the code are you least confident about, and how could you increase your confidence? 
+     -->
 
 ## 5. Reflection *(15%)*
 
-<!-- The honest section. What would have made you more effective? -->
+<!-- What would have made you more effective? -->
 
 **What I got better at:**
 
 **Where my lack of technical knowledge cost me time:**
-<!-- Be specific. "I didn't understand what an error message meant, so I pasted
-     it back four times instead of reading it" is a real answer. -->
+<!-- Be specific. -->
 
-**What I'd learn first if I kept going:**
+**What new skills I'd like to learn first if I keep going:**
 
 **What I now think about building software this way:**
-<!-- Not the answer you think is wanted. What you actually concluded. -->
+<!-- Just be honest and authentic. There's no wrong answer here. -->
 
----
-
-## Appendix: demo notes
-
-<!-- The live demo includes a sabotage round: something in your running app gets
-     broken, and you predict which tests will fail and how, before running them.
-
-     You cannot prepare for the specific sabotage. You can prepare by knowing
-     what each of your tests actually covers. This table is that preparation. -->
-
-| If this broke... | These tests would fail | And the message would say roughly |
-|---|---|---|
-|  |  |  |
-|  |  |  |
-|  |  |  |
-
-**Tests that cover nothing** <!-- Parts of the app where a break would go
-undetected. Knowing your own blind spots is worth more in the demo than
-pretending you have none. -->
