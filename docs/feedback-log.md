@@ -59,14 +59,3 @@ review AI, or by you at 1am, and a decision you did write down never comes back.
 <!-- Record their words, not your summary of their words. "I couldn't tell if it
      saved" is data. "Minor UI feedback" is not. -->
 
-## Testing the setup instructions
-
-The real test of your README: hand it to a classmate and don't say anything.
-
-| | |
-|---|---|
-| **Who tried it** |  |
-| **Date** |  |
-| **Got it running unaided?** | yes / no |
-| **Every question they had to ask** | <!-- each one is a bug in your README --> |
-| **What I fixed as a result** |  |
