@@ -16,7 +16,7 @@ thing still works.
 
 ## Your first hour
 
-1. **Read [tracks.md](tracks.md)** and pick a track. This decides your language,
+1. **Read [tracks.md](tracks.md)** and make sure you are choosing the right track. For almost everyone you will be making a "Web app". This decides your language,
    how your tests run, and where your app gets hosted.
 2. **Read [routine.md](routine.md).** It's the eight-step loop you'll run for
    every feature. Learning it once saves you the whole semester.
