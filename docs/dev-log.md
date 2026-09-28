@@ -24,29 +24,6 @@ structing it in week 15 takes hours and the result is worse.
 
 ---
 
-## Lab milestones
-
-Check these off as you hit them, and link to the entry or screenshot.
-
-- [ ] **Task list + red tests**: first tests written and failing
-- [ ] **First green**: a test flips from red to green on your own project
-- [ ] **Sabotage**: you broke your own app on purpose and confirmed the tests caught it
-- [ ] **Real API call**: your app talks to an outside service
-- [ ] **Bug reports filed**: on a classmate's prototype
-- [ ] **README v1**: a classmate ran your app from your setup steps
-- [ ] **User-test notes**: recorded in [feedback-log.md](feedback-log.md)
-- [ ] **Criteria v2 + review report**: acceptance criteria revised after real feedback
-
----
-
 ## Entries
 
 <!-- Newest first. -->
-
-### YYYY-MM-DD
-
-**What happened:**
-
-**AI tools used, and for what:**
-
-**What surprised me:**
