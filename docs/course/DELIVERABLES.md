@@ -11,7 +11,6 @@
 | [`docs/proposal.md`](../proposal.md) | Problem statement, intended users, tools and services each with a one-sentence justification, development timeline mapping features to weeks |
 | [`docs/backlog.md`](../backlog.md) | Prioritized user stories, one sentence each, each with testable acceptance criteria, numbered in planned build order |
 | [`AGENTS.md`](../../AGENTS.md) | The standing rules your AI assistant must follow, sections 1 and 4 filled in |
-| [`README.md`](../../README.md) | First draft of the setup instructions - steps and accounts a stranger needs |
 
 **Graded on:** problem definition (25%); user stories and how testable their
 acceptance criteria are (25%); technology choices and their justification (25%);
