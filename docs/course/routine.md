@@ -89,7 +89,7 @@ Please make sure you are on a new branch, and that you were working in a separat
 
 Then ask your agent to check for udpates to this template from the instructor:
 ```
-git remote add upstream https://github.com/you/template.git
+git remote add upstream [https://github.com/you/template.git](https://github.com/CSCI-2521/project-template)
 git fetch upstream
 git merge upstream/main
 ```
